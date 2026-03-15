@@ -146,7 +146,7 @@
   justify-content: space-between;
 }
 
-@media (max-wdith: 800px) {
+@media (max-width: 800px) {
   .formacao-container {
     grid-template-columns: 1fr;
     padding: 60px 20px;
@@ -161,5 +161,14 @@
   .formacao-extra h3::before {
     position: initial;
     margin-bottom: 10px;
+  }
+  .faculdade {
+    grid-template-columns: 1fr;
+  }
+  .formacao-extra .idiomas h3::before {
+    position: initial;
+  }
+  .formacao-extra .cursos h3::before {
+    position: initial;
   }
 }

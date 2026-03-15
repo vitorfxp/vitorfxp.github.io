@@ -18,6 +18,10 @@
   color: #cccccc;
 }
 
+.footer-contato {
+  position: relative;
+}
+
 .footer-contato li {
   font-weight: bold;
   font-size: 2.25rem;
@@ -35,6 +39,39 @@
   grid-column: 1 / -1;
   font-size: 1.125rem;
   color: #8f8f8f;
+}
+
+.footer-contato .email::before {
+  display: block;
+  content: "";
+  width: 28px;
+  height: 24px;
+  background: url("../img/email.svg") no-repeat;
+  position: absolute;
+  left: -45px;
+  top: 4px;
+}
+
+.footer-contato .cellphone::before {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 30px;
+  background: url("../img/contatos.svg") no-repeat;
+  position: absolute;
+  left: -45px;
+  top: 73px;
+}
+
+.footer-contato .insta::before {
+  display: block;
+  content: "";
+  width: 28px;
+  height: 24px;
+  background: url("../img/instagram.svg") no-repeat;
+  position: absolute;
+  left: -45px;
+  top: 146px;
 }
 
 @media (max-width: 800px) {
